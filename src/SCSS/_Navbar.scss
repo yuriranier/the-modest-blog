@@ -1,0 +1,38 @@
+.navbar {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	max-width: 600px;
+	margin: 0 auto;
+	border-bottom: 2px solid $color-dark-gray;
+
+	h1 {
+		font-size: 28px;
+		color: $color-accent-1;
+	}
+
+	.links {
+		margin-left: auto;
+	}
+
+	a {
+		margin-left: 16px;
+		text-decoration: none;
+		padding: 6px;
+		font-weight: bold;
+		transition: $transition;
+
+		&:hover {
+			color: $color-accent-1;
+		}
+	}
+	.create-link {
+		border: solid 2px $color-text;
+		border-radius: 8px;
+
+		&:hover {
+			color: $color-accent-1;
+			border: solid 2px $color-accent-1;
+		}
+	}
+}

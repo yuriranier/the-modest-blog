@@ -6,15 +6,8 @@ const Navbar = () => {
 			<h1>The Modest Blog</h1>
 			<div className='links'>
 				<Link to='/the-modest-blog'>Home</Link>
-				<Link
-					to='/the-modest-blog/create'
-					style={{
-						color: 'white',
-						backgroundColor: '#f1356d',
-						borderRadius: '8px',
-					}}
-				>
-					New Blog
+				<Link to='/the-modest-blog/create' className='create-link'>
+					Write
 				</Link>
 			</div>
 		</nav>

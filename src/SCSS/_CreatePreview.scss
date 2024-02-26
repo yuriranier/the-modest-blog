@@ -1,0 +1,16 @@
+.create-preview {
+	margin-top: 40px;
+
+	fieldset {
+		text-align: left;
+
+		h2 {
+			font-size: 20px;
+			color: $color-accent-2;
+			margin-bottom: 10px;
+		}
+		.body {
+			margin-top: 20px;
+		}
+	}
+}

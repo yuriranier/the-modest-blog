@@ -47,12 +47,18 @@ const Create = () => {
 					<option value='Mario'>Mario</option>
 					<option value='Yoshi'>Yoshi</option>
 				</select>
-				{!isPending && <button>Add blog</button>}
+				{title && body && (
+					<div className='create-preview'>
+						<fieldset>
+							<legend>Blog Preview</legend>
+							<h2>{title}</h2>
+							<p>Written by {author}</p>
+							<p className='body'>{body}</p>
+						</fieldset>
+					</div>
+				)}
+				{!isPending && <button>Publish</button>}
 				{isPending && <button disabled>Posting...</button>}
-				{/* Blog Preview */}
-				<p>{title}</p>
-				<p>{body}</p>
-				<p>{author}</p>
 			</form>
 		</div>
 	);

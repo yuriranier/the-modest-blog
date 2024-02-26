@@ -1,0 +1,44 @@
+.create {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+
+	& h2 {
+		font-size: 20px;
+		color: $color-accent-2;
+		margin-bottom: 30px;
+	}
+	& label {
+		text-align: left;
+		display: block;
+	}
+	& textarea {
+		min-height: 120px;
+	}
+	& input,
+	& textarea,
+	& select {
+		width: 100%;
+		padding: 6px 10px;
+		margin: 10px 0;
+		border: 1px solid #ddd;
+		box-sizing: border-box;
+		display: block;
+		border-radius: 3px;
+	}
+	button {
+		color: $color-accent-1;
+		border: solid 2px $color-accent-1;
+		padding: 8px;
+		border-radius: 8px;
+		cursor: pointer;
+		transition: $transition;
+		font-weight: bold;
+		margin: 10px 0 20px 0;
+
+		&:hover {
+			background: $color-accent-1;
+			color: $color-dark-gray;
+		}
+	}
+}

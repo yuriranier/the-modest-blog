@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* color variables */
+$colo-bg: #171717;
+$color-text: #a4afb0;
+$color-accent-1: #91c499;
+$color-accent-2: #ffc857;
+$color-accent-3: #fe7c77;
+$color-dark-gray: #424242;
+$color-mid-gray: #777;
+
+/* other transitions */
+
+$transition: all 0.4s ease-in-out;
+
+/* base styles */
+* {
+	margin: 0;
+	font-family: 'Quicksand';
+	background-color: $colo-bg;
+	color: $color-text;
+	user-select: none;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.content {
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 20px;
+}
