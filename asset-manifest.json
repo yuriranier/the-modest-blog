@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/the-modest-blog/static/css/main.7b8a3d6e.css",
-    "main.js": "/the-modest-blog/static/js/main.2695107b.js",
+    "main.css": "/the-modest-blog/static/css/main.e2a6869d.css",
+    "main.js": "/the-modest-blog/static/js/main.b8a8fd0b.js",
     "index.html": "/the-modest-blog/index.html",
-    "main.7b8a3d6e.css.map": "/the-modest-blog/static/css/main.7b8a3d6e.css.map",
-    "main.2695107b.js.map": "/the-modest-blog/static/js/main.2695107b.js.map"
+    "main.e2a6869d.css.map": "/the-modest-blog/static/css/main.e2a6869d.css.map",
+    "main.b8a8fd0b.js.map": "/the-modest-blog/static/js/main.b8a8fd0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b8a3d6e.css",
-    "static/js/main.2695107b.js"
+    "static/css/main.e2a6869d.css",
+    "static/js/main.b8a8fd0b.js"
   ]
 }
