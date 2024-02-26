@@ -21,7 +21,7 @@ const Create = () => {
 		}).then(() => {
 			console.log('New Blog Added');
 			setIsPending(false);
-			history.push('/');
+			history.push('/test-react');
 		});
 	};
 
