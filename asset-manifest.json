@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/the-modest-blog/static/css/main.b3264b96.css",
+    "main.js": "/the-modest-blog/static/js/main.8826e9da.js",
+    "index.html": "/the-modest-blog/index.html",
+    "main.b3264b96.css.map": "/the-modest-blog/static/css/main.b3264b96.css.map",
+    "main.8826e9da.js.map": "/the-modest-blog/static/js/main.8826e9da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3264b96.css",
+    "static/js/main.8826e9da.js"
+  ]
+}
