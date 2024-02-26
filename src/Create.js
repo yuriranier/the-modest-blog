@@ -21,7 +21,7 @@ const Create = () => {
 		}).then(() => {
 			console.log('New Blog Added');
 			setIsPending(false);
-			history.push('/test-react');
+			history.push('/the-modest-blog');
 		});
 	};
 

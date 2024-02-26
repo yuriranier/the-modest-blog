@@ -5,9 +5,9 @@ const Navbar = () => {
 		<nav className='navbar'>
 			<h1>The Modest Blog</h1>
 			<div className='links'>
-				<Link to='/test-react'>Home</Link>
+				<Link to='/the-modest-blog'>Home</Link>
 				<Link
-					to='/create'
+					to='/the-modest-blog/create'
 					style={{
 						color: 'white',
 						backgroundColor: '#f1356d',
