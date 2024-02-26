@@ -1,0 +1,23 @@
+.footer {
+	display: flex;
+	align-items: center;
+	min-width: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-top: 2px solid $color-dark-gray;
+
+	& a {
+		margin: 0 auto;
+		padding: 4px 10px 6px 10px;
+		border: solid 2px transparent;
+		border-radius: 8px;
+		text-decoration: none;
+		font-weight: bold;
+		transition: $transition;
+		color: $color-accent-1 !important;
+
+		&:hover {
+			border-color: $color-accent-1 !important;
+		}
+	}
+}

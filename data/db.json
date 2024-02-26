@@ -1,28 +1,22 @@
 {
-	"blogs": [
-		{
-			"title": "Embracing React.js: Bowser's Insights into Modern Web Development",
-			"body": "Greetings, fellow gamers! Mario here, ready to share my adventures with React.js! Dive into the world of frontend development with me as we explore React's component-based architecture, virtual DOM, and seamless state management. From building interactive interfaces to optimizing performance, React.js is the ultimate power-up for web development! Let's level up together! #ReactJS #WebDev",
-			"author": "Mario",
-			"id": "1"
-		},
-		{
-			"title": "Embracing React.js: Bowser's Insights into Modern Web Development",
-			"body": "Greetings, minions! Bowser here, diving into the world of React.js! Join me as we harness the power of React's component-based architecture and virtual DOM to conquer frontend development challenges. From building scalable UIs to optimizing performance, React.js empowers us to rule the digital realm with unparalleled efficiency. Let's unleash the fire of React.js and dominate the web! #ReactJS #WebDev",
-			"author": "Bowser",
-			"id": "2"
-		},
-		{
-			"title": "Unleashing Fury with React.js: Bowser's Guide to Frontend Domination",
-			"body": "Greetings, loyal subjects! Bowser roaring into action with React.js insights! Harness React's power to forge dynamic user interfaces and crush frontend foes effortlessly. Dive into React's world of reusable components and state management prowess to reign supreme in the digital kingdom. Join me in wielding React.js as our ultimate weapon for frontend domination! Let's conquer the web together! #ReactJS #FrontendDev",
-			"author": "Bowser",
-			"id": "3"
-		},
-		{
-			"title": "Mastering React.js: Mario's Guide to Dynamic Web Development",
-			"body": "Hey there, adventurers! Mario at your service, bringing you insights into the realm of React.js! Discover the art of crafting dynamic user interfaces with React's intuitive syntax and efficient rendering. Join me on a journey through stateful components, JSX magic, and the React ecosystem's vast possibilities. With React.js, every web development quest becomes an exciting adventure! Let's code our way to victory! #ReactJS #WebDevelopment",
-			"author": "Mario",
-			"id": "4"
-		}
-	]
+  "blogs": [
+    {
+      "title": "Embracing React.js: Bowser's Insights into Modern Web Development",
+      "body": "Greetings, fellow gamers! Mario here, ready to share my adventures with React.js! Dive into the world of frontend development with me as we explore React's component-based architecture, virtual DOM, and seamless state management. From building interactive interfaces to optimizing performance, React.js is the ultimate power-up for web development! Let's level up together! #ReactJS #WebDev",
+      "author": "Mario",
+      "id": "1"
+    },
+    {
+      "title": "Embracing React.js: Bowser's Insights into Modern Web Development",
+      "body": "Greetings, minions! Bowser here, diving into the world of React.js! Join me as we harness the power of React's component-based architecture and virtual DOM to conquer frontend development challenges. From building scalable UIs to optimizing performance, React.js empowers us to rule the digital realm with unparalleled efficiency. Let's unleash the fire of React.js and dominate the web! #ReactJS #WebDev",
+      "author": "Bowser",
+      "id": "2"
+    },
+    {
+      "title": "Unleashing Fury with React.js: Bowser's Guide to Frontend Domination",
+      "body": "Greetings, loyal subjects! Bowser roaring into action with React.js insights! Harness React's power to forge dynamic user interfaces and crush frontend foes effortlessly. Dive into React's world of reusable components and state management prowess to reign supreme in the digital kingdom. Join me in wielding React.js as our ultimate weapon for frontend domination! Let's conquer the web together! #ReactJS #FrontendDev",
+      "author": "Bowser",
+      "id": "3"
+    }
+  ]
 }

@@ -4,11 +4,12 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Create from './Create';
 import BlogDetails from './BlogDetails';
 import NotFound from './NotFound';
+import Footer from './Footer';
 
 function App() {
 	return (
 		<Router>
-			<div className='App'>
+			<div className='app'>
 				<Navbar />
 				<div className='content'>
 					<Switch>
@@ -26,6 +27,7 @@ function App() {
 						</Route>
 					</Switch>
 				</div>
+				<Footer />
 			</div>
 		</Router>
 	);

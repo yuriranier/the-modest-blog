@@ -26,8 +26,17 @@ $transition: all 0.4s ease-in-out;
 	}
 }
 
+.app {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .content {
-	max-width: 600px;
+	min-width: 600px;
+	min-height: auto;
 	margin: 40px auto;
 	padding: 20px;
 }

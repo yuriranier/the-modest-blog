@@ -13,8 +13,17 @@
   outline: none;
 }
 
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .content {
-  max-width: 600px;
+  min-width: 600px;
+  min-height: auto;
   margin: 40px auto;
   padding: 20px;
 }
@@ -23,7 +32,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  min-width: 800px;
   margin: 0 auto;
   border-bottom: 2px solid #424242;
 }
@@ -151,4 +160,26 @@
 }
 .create-preview fieldset .body {
   margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 2px solid #424242;
+}
+.footer a {
+  margin: 0 auto;
+  padding: 4px 10px 6px 10px;
+  border: solid 2px transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+  color: #91c499 !important;
+}
+.footer a:hover {
+  border-color: #91c499 !important;
 }
